@@ -5,4 +5,11 @@ title: KT's scribbles
 url: "https://dracarys983.github.io"
 baseurl: "scribbles"
 
+# Defaults
+defaults:
+    # _posts
+    - scope:
+        path: ""
+        type: posts
+
 theme: jekyll-theme-minimal
