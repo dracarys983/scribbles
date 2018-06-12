@@ -11,7 +11,7 @@ layout: default
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}
-       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.title }}</a>
+       <li><a href="{{ site.baseurl }}{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.title }}</a>
 	   <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
 	   </li>
        {% if forloop.last %}</ul>{% endif %}
