@@ -1,1 +1,6 @@
+markdown: kramdown
+
+url: "https://dracarys983.github.io"
+baseurl: "scribbles"
+
 theme: jekyll-theme-minimal
