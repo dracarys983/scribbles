@@ -3,13 +3,6 @@ markdown: kramdown
 title: KT's scribbles
 
 url: "https://dracarys983.github.io"
-baseurl: "scribbles"
-
-# Defaults
-defaults:
-    # _posts
-    - scope:
-        path: ""
-        type: posts
+baseurl: "/scribbles"
 
 theme: jekyll-theme-minimal
