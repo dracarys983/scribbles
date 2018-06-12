@@ -5,4 +5,10 @@ title: KT's scribbles
 url: "https://dracarys983.github.io"
 baseurl: "/scribbles"
 
+plugins:
+    - jekyll-paginate
+
+permalink: /:year/:month/:day/:title
+paginate: 8
+
 theme: jekyll-theme-minimal
