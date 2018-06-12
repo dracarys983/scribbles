@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="archive-post-list">
+<div class="archive-post-list">
    {% for post in paginator.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
@@ -16,7 +16,7 @@ layout: default
 	   </li>
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
-</section>
+</div>
 
 <div class="pagination">
   {% if paginator.previous_page %}
