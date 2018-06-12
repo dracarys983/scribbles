@@ -8,7 +8,11 @@ baseurl: "/scribbles"
 plugins:
     - jekyll-paginate
 
+whitelist:
+    - jekyll-paginate
+
 permalink: /:year/:month/:day/:title
-paginate: 8
+paginate: 5
+paginate_path: /page:num/
 
 theme: jekyll-theme-minimal
