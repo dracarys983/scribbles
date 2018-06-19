@@ -7,9 +7,11 @@ baseurl: "/scribbles"
 
 plugins:
     - jekyll-paginate
+    - jekyll-feed
 
 whitelist:
     - jekyll-paginate
+    - jekyll-feed
 
 permalink: /:year/:month/:day/:title
 paginate: 15
